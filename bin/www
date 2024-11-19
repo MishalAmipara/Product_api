@@ -10,7 +10,7 @@ var http = require('http');
 const mongoose = require('mongoose');
 
 // Database connection
-mongoose.connect(' set Your Connection link ')
+mongoose.connect('mongodb+srv://mishl:123@cluster0.5xkxt.mongodb.net/product')
   .then(() => console.log('Connected!'));
 
 /**
